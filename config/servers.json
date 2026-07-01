@@ -1,0 +1,29 @@
+{
+  "application": {
+    "name": "CRPT Diagnostics",
+    "version": "0.1.0"
+  },
+  "settings": {
+    "tcpTimeout": 3000,
+    "httpsTimeout": 5000,
+    "dnsTimeout": 3000
+  },
+  "servers": [
+    {
+      "id": "registration",
+      "name": "Registration",
+      "host": "ts-reg.crpt.ru",
+      "port": 19100,
+      "protocol": "https",
+      "enabled": true
+    },
+    {
+      "id": "api",
+      "name": "API",
+      "host": "api.ao-esp.ru",
+      "port": 443,
+      "protocol": "https",
+      "enabled": true
+    }
+  ]
+}
