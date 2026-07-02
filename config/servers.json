@@ -23,6 +23,7 @@
       "host": "api.ao-esp.ru",
       "port": 443,
       "protocol": "https",
+      "path": "/",
       "enabled": true
     }
   ]
